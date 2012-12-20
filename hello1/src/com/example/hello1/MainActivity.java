@@ -21,7 +21,7 @@ public class MainActivity extends Activity {
 
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Toast.makeText(getApplicationContext(), "Hi John. 2",
+				Toast.makeText(getApplicationContext(), "Hi John. 3",
 						Toast.LENGTH_SHORT).show();
 				// startWork1();
 			}
