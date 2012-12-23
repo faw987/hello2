@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Toast;
 
 public class MainActivity extends Activity {
@@ -19,7 +20,9 @@ public class MainActivity extends Activity {
 
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Toast.makeText(getApplicationContext(), "Hi John. 4",
+				EditText text1 = (EditText) findViewById(R.id.editText1);
+				String et1 = text1.getText().toString();
+				Toast.makeText(getApplicationContext(), "Merry Xmas "+ et1 + ".",
 						Toast.LENGTH_SHORT).show();
 				// startWork1();
 			}
