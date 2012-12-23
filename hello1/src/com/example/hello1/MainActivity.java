@@ -14,14 +14,12 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
-		
-
 		Button startButton = (Button) findViewById(R.id.button1);
 		startButton.setOnClickListener(new View.OnClickListener() {
 
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Toast.makeText(getApplicationContext(), "Hi John. 3",
+				Toast.makeText(getApplicationContext(), "Hi John. 4",
 						Toast.LENGTH_SHORT).show();
 				// startWork1();
 			}
